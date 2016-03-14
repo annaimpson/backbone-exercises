@@ -1,0 +1,30 @@
+
+// Bootstrap Variables
+$icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
+
+// Import Bootstrap
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+.blog-box{
+  margin-left: 275px;
+  margin-top: 50px;
+  width: 800px;
+}
+.title-box{
+  margin-top: 50px;
+  margin-left: 281px;
+}
+.submit-button{
+  margin-left: 275px;
+  margin-top: 30px;
+}
